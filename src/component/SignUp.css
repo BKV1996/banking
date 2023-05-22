@@ -1,0 +1,9 @@
+.signU1 {
+    background-color: blueviolet;
+    padding: 25px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+

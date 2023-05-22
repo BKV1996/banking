@@ -1,0 +1,56 @@
+.sign3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px !important;
+    justify-content: center;
+    --bs-gutter-x: -0.5rem !important;
+}
+.sign4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sign5{
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.sign6{
+    font-size: 20px;
+    font-weight: 700;
+}
+.sign7{
+    text-align: center;
+    padding: 20px;
+}
+.sign8{
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px !important;
+    text-align: center;
+}
+select{
+    font-size: 27px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    width: 50% !important;
+    border: 3px solid red !important;
+    border-radius: 10px;
+    background-color: bisque;
+}
+option{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+
+
+@media screen and (max-width:800px){
+    select{
+        width: 100% !important;
+        max-width: 76% !important;
+        font-size: 20px !important;
+    }
+}

@@ -1,0 +1,107 @@
+/* HomePage.css */
+.card{
+    background-color: khaki !important;
+}
+.card-primary {
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.card-secondary {
+  background-color: #e0e0e0;
+  border: none;
+}
+
+.card-tertiary {
+  background-color: #d1d1d1;
+  border: none;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.btn{
+    margin-top: 15px;
+    /* text-align: center; */
+}
+
+.btn-light {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+
+.btn-light:hover {
+  background-color: #0069d9;
+  color: #fff;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-control {
+  height: 50px;
+  font-size: 16px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #007bff;
+  box-shadow: none;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  .form-label {
+    font-size: 14px;
+  }
+  
+  .form-control {
+    height: 40px;
+    font-size: 14px;
+  }
+}

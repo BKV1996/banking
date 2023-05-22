@@ -1,0 +1,45 @@
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.headers1{
+    padding: 10px !important;
+}
+.headers2{
+    /* background-color: rgb(10, 2, 19); */
+    padding-left: 105px !important;
+    padding-right: 105px !important;
+}
+.headers2 .navbar-brand{
+    color: white;
+}
+.headers2 .navbar-brand:hover{
+    color: blue;
+    cursor: pointer;
+}
+.headers2 .nav-link{
+    color: white;
+}
+.headers2 .nav-link:hover{
+    color: blue;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0rem !important;
+}
+.dropdown-menu{
+    background-color: rgb(10, 2, 19) !important;
+}
+.dropdown-menu .dropdown-item{
+    color: white;
+}
+.navbar-nav .show>.nav-link{
+    color: blue !important;
+}
+
+@media screen and (max-width:1000px) {
+    .headers2{
+        /* background-color: rgb(10, 2, 19); */
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
